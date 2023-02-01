@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function Blog() {
-  return (
+export default function Resume() {
+    return (
+       < main id = "contact" className = "page-content container" >
+           <h2 className = "page-heading" > Resume </h2>
     <div>
-      <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -19,6 +20,8 @@ export default function Blog() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-    </div>
+            </div>
+            </main>
+    
   );
 }

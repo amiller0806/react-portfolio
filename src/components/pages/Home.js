@@ -1,9 +1,10 @@
 import React from 'react';
 
 export default function Home() {
-  return (
+    return (
+       < main id = "contact" className = "page-content container" >
+           <h2 className = "page-heading" > Home </h2>
     <div>
-      <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -16,6 +17,7 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-    </div>
+            </div>
+            </main>
   );
 }
