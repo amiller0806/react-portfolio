@@ -1,27 +1,246 @@
-import React from 'react';
+import React from "react";
+import CardGroup from "react-bootstrap/CardGroup";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+// import Container from "react-bootstrap/Container";
+
+
+
+import project1 from "../images/concert-catalog.jpg";
+import project2 from "../images/shoppers.jpg";
 
 export default function Portfolio() {
-    return (
-       < main id = "contact" className = "page-content container" >
-           <h2 className = "page-heading" > Resume </h2>
-    <div>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-            </div>
-            </main>
-    
+  return (
+    <main id="portfolio" className="page-content container">
+      <h2 className="page-heading"> Portfolio </h2>
+
+      <CardGroup>
+        <Row>
+          <Col>
+            {/* PROJECT 1: Concerts Near Me */}
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>Concerts Near Me </Card.Title>
+
+                <Card.Footer>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API: Ticketmaster API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Footer>
+              </Card.Body>
+            </Card>
+          </Col>
+          {/* PROJECT 2 :Shoppers */}
+          <Col>
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>Shoppers </Card.Title>
+                <Card.Text>
+                  NOTE: Some features on the deployed version do not work at the
+                  moment, but work locally. These features are in the process of
+                  being fixed
+                </Card.Text>
+                <Card.Footer>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Footer>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        {/* PROJECT 3: Shoppers */}
+        <Row>
+          <Col>
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>Deployed Skincare </Card.Title>
+                <Card.Text>
+                  NOTE: Some features on the deployed version do not work at the
+                  moment, but work locally. These features are in the process of
+                  being fixed
+                </Card.Text>
+                <Card.Footer>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Footer>
+              </Card.Body>
+            </Card>
+          </Col>
+          <br></br>
+
+          {/* PROJECT 4: ORM Sql */}
+          <Col>
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>Deployed Skincare </Card.Title>
+                <Card.Text>
+                  NOTE: Some features on the deployed version do not work at the
+                  moment, but work locally. These features are in the process of
+                  being fixed
+                </Card.Text>
+                <Card.Footer>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Footer>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        {/* PROJECT 5: ORM Sql */}
+        <Row>
+          <Col>
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>lajfdkshf </Card.Title>
+                <Card.Text>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* PROJECT 6: ORM Sql */}
+          <Col>
+            <Card>
+              <a href="https://amiller0806.github.io/java-near-me/">
+                <Card.Img
+                  className="projects"
+                  variant="top"
+                  src={project1}
+                  height="100px"
+                  width="160"
+                />
+              </a>
+              <Card.Body>
+                <Card.Title>Deployed Skincare </Card.Title>
+                <Card.Text>
+                  NOTE: Some features on the deployed version do not work at the
+                  moment, but work locally. These features are in the process of
+                  being fixed
+                </Card.Text>
+                <Card.Footer>
+                  <div className="tech">
+                    <div className="techs"> Technologies: </div> CSS, HTML, JS,
+                    Third Party API
+                  </div>
+                  <br></br>
+
+                  <a
+                    href="https://github.com/amiller0806/java-near-me"
+                    target="_blank"
+                  >
+                    {" "}
+                    Github Repository
+                  </a>
+                </Card.Footer>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </CardGroup>
+    </main>
   );
 }
