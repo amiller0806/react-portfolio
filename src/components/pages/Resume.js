@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../images/resume.png';
+import resume from '../../assets/images/resume.png';
 import resumePdf from '../docs/AMResume.pdf';
 
 export default function Resume() {
