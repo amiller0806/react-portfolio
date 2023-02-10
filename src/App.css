@@ -8,12 +8,11 @@
 
 
 .page-heading{
-  background-image: linear-gradient(150deg,red,pink, white);
+  background-image: linear-gradient(150deg,rgb(203, 101, 187),rgb(185, 134, 211), white);
   font-family: 'Source Sans Pro',
   sans-serif;
   letter-spacing: 2px;
 }
-
 
 
 .ariel{
@@ -34,21 +33,27 @@ font-weight: 1rem;
 
 .navigation{
   width:65%;
+  
+ 
 }
 
 a{
 font-family: 'Lato',
 sans-serif;
 font-weight: 2rem;
+
 }
 
 li:hover{
 
-  background-color: greenyellow;
+  background-color: rgb(228, 65, 246);
 }
 nav {
-  background-image: linear-gradient(150deg, purple, white);
-  border-bottom: 5px solid black;
+  background-image:  linear-gradient( 150deg, purple, white);
+  border-bottom: 3px solid black;
+  
+
+
 }
 
 body {
@@ -58,95 +63,43 @@ body {
 
 .active{
   background-color: pink;
+  
 }
 
-.tech, .techs {
-  display: inline-block;
-}
 
-.techs {
+.all-projects {
+  font-style: italic;
   font-weight: bold;
 }
 
-
-
-/* Card {
-  width: 50
-} */
-
-.projects {
-padding: 4px;
-
-  width: 200px;
-  height: 180px;
-  margin-left: auto;
-  margin-top: auto; 
-  margin-right:auto;
-  position: relative;;
-   /* display: block; */
-   
-   
- } 
-
 card {
-  /* display: grid; */
-  flex-wrap: wrap;
-  /* position: relative; */
-  /* white-space: pre-wrap; */
 
+  flex-wrap: wrap;
+
+
+
+
+}
+
+.project-card {
+  display: inline-block;
+   border: 6px solid purple;
+   background-color: rgb(221, 176, 240);
 }
 
 
 .project {
+  padding: 20px;
   position: relative;
+
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   height: 300px;
   margin: 30px;
 }
 
-.project-bg {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.project-text {
-  color: var(--secondary);
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 50px;
-  z-index: 900;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-}
-
-.project-text:hover {
-  background-color: var(--alpha);
-  opacity: 1;
-  border: 10px solid var(--secondary);
-}
-
-.project-text h3 {
-  font-size: 2.5rem;
-}
-
-.project-text a {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--dark);
-  transition: all 0.3s ease-in-out;
-}
-
-.project-text a:hover {
-  color: var(--darker);
-}
-
 .navActive {
-  color: var(--secondary);
+
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
 }

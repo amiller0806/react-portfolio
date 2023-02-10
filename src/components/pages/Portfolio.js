@@ -17,25 +17,24 @@ const Portfolio = () => {
 
     const projects = [
       {
-        name: "Concert Near Me",
-        description: "CSS, HTML, JS, Third Party API: Ticketmaster API",
+        name: "HTML, CSS, Concert Near Me",
+        description: " Ticketmaster API",
         image: project1,
         link: "https://amiller0806.github.io/java-near-me/",
         repo: "https://github.com/amiller0806/java-near-me",
       },
       {
         name: "Shoppers",
-        description:
-          "CSS, HTML, JS, RedCircle API, Cypress, Bootstrap, Axios, Sequelize, mySQL, Heroku, unpkg, Express JS, node.js",
+        description:"RedCircle API, Cypress, Bootstrap, Axios, mySQL, Heroku, Express.js",
         image: project2,
         link: "https://github.com/kabirfaisal1/shoppers",
-        // repo: "https://github.com",
+        repo: "https://github.com/kabirfaisal1/shoppers",
       },
 
       {
         name: "Deployed Skincare",
         description:
-          "MERN, CSS, JavaScript, GraphQL, JWT, bcrypt, Axios, CSS Frameworks:  Bootstrap, Third-party API: RedCircle API (Target)",
+          "MERN, GraphQL, JWT, bcrypt, Axios, Bootstrap, RedCircle API ",
         image: project3,
         link: "https://whispering-wildwood-03481.herokuapp.com/",
         repo: "https://github.com/valkim55/project-three",
@@ -70,28 +69,31 @@ const Portfolio = () => {
 
 
     return (
-
-        <div>
-            <h1 class="projects">My Projects</h1>
-            {projects.map((projects) => (
-                <Card>
-                    <Card.Body>
-                        <Card.Title className="name-creator">{projects.name}</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">{projects.description}</Card.Subtitle>
-                  <Card.Text>
-                    <a href={ projects.link} target= "_blank" rel="noreferrer">
-                      <img class="project" src={projects.image} alt="project pic" />
-                      </a>
-              
-                        
-                        </Card.Text>
-                        <Card.Link target="_blank" href={projects.repo}>Github Repository</Card.Link>
-
-                    </Card.Body>
-                </Card>
-            ))}
-        </div>
-    )
+      <div>
+        <h2 className="page-heading"> My Projects </h2>
+        <h5 className="all-projects"> Please note that Projects Use HTML, CSS, and Javascript. If these technologies are not
+          mentioned in the description, it is for the sake of brevity
+        Also note that my group member has deleted the deployed application for the Shoppers project so ALL links go to the github repository instead of the application</h5>
+        {projects.map((projects) => (
+          <Card className="project-card">
+            <Card.Body>
+              <Card.Title className="project-title">{projects.name}</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                {projects.description}
+              </Card.Subtitle>
+              <Card.Text>
+                <a href={projects.link} target="_blank" rel="noreferrer">
+                  <img class="project" src={projects.image} alt="project pic" />
+                </a>
+              </Card.Text>
+              <Card.Link target="_blank" href={projects.repo}>
+                Github Repository
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
+    );
 }
 
 

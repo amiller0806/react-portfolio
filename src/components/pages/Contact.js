@@ -42,6 +42,7 @@ function Contact() {
 
   return (
     <section>
+      <h2 className="page-heading"> Contact Me </h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
