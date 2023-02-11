@@ -67,30 +67,21 @@ body {
 }
 
 .about-container {
-  /* display: inline-block; */
+
   padding-top: 5px;
-  /* float: right; */
+
 }
 .profile  {
   width: 30%;
            border-radius: 50%;
            text-align: center;
             float: left;
-  /* display: inline-block; */
+
 
 
 }
 p {
   text-align: justify;
-}
-.about-text {
-  /* float: right; */
-  /* display: inline-block; */
-  /* margin-left: 255px; */
-/* float: right;
-text-align: left; */
-/* margin-right: 50px; */
-  /* flex-wrap: wrap; */
 }
 
 
@@ -101,12 +92,7 @@ text-align: left; */
 }
 
 card {
-
   flex-wrap: wrap;
-
-
-
-
 }
 
 .resume {
@@ -133,6 +119,86 @@ card {
   height: 300px;
   margin: 30px;
 }
+
+.contact {
+    padding-top: 5px;
+  padding: 20px;
+  display: flex-wrap;
+  border: 4px solid black;
+  height: 400px;
+  width: 60%;
+ 
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+input[type=email],
+textarea {
+
+  width: 70%;
+  /* Full width */
+
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+textarea.message-text {
+  margin-right: 45px;
+}
+
+textarea {
+  width: 70%;
+  text-align: center;
+  float: right;
+}
+
+
+label.email, label.name, label.message {
+  padding-right: 20px;
+}
+
+label.message {
+  margin-top: 50px;
+}
+
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #04AA6D;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+   
+}
+
+button.submit {
+  float: right;
+  margin-left: 200px;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
 
 .navActive {
 

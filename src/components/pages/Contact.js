@@ -44,8 +44,9 @@ function Contact() {
     <section>
       <h2 className="page-heading"> Contact Me </h2>
       <form id="contact-form" onSubmit={handleSubmit}>
+        <div className = "contact"> 
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className= "name" htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
@@ -54,7 +55,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label className="email" htmlFor="email">Email:</label>
           <input
             type="email"
             name="email"
@@ -62,9 +63,10 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
+        <div className= "msg">
+          <label className="message" htmlFor="message">Message:</label>
+            <textarea
+              className= "message-text"
             name="message"
             rows="5"
             defaultValue={message}
@@ -76,7 +78,8 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+          <button className = "submit" type="submit">Submit</button>
+          </div>
       </form>
     </section>
   );
