@@ -1,69 +1,67 @@
-
-
-
-.page-content{
-  margin:3%;
-  padding:5%;
+.page-content {
+  margin: 3%;
+  padding: 5%;
 }
 
 
-.page-heading{
-  background-image: linear-gradient(150deg,rgb(203, 101, 187),rgb(185, 134, 211), white);
+.page-heading {
+  background-image: linear-gradient(150deg, rgb(203, 101, 187), rgb(185, 134, 211), white);
   font-family: 'Source Sans Pro',
-  sans-serif;
+    sans-serif;
   letter-spacing: 2px;
 }
 
-         
-.ariel{
+
+.ariel {
 
 
-font-family: 'Roboto', sans-serif;
-font-weight: 5rem;
-width:30%;
-margin-left:5%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 5rem;
+  width: 30%;
+  margin-left: 5%;
 }
 
 
-p{
-font-family: 'Montserrat',
-sans-serif;
-font-weight: 1rem;
+p {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 1rem;
 }
 
-.navigation{
-  width:65%;
-  
- 
-}
+.navigation {
+  width: 65%;
 
-a{
-font-family: 'Lato',
-sans-serif;
-font-weight: 2rem;
 
 }
 
-li:hover{
+a {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 2rem;
+
+}
+
+li:hover {
 
   background-color: rgb(228, 65, 246);
 }
+
 nav {
-  background-image:  linear-gradient( 150deg, purple, white);
+  background-image: linear-gradient(150deg, purple, white);
   border-bottom: 3px solid black;
-  
+
 
 
 }
 
 body {
-    background-color:  rgb(212, 149, 212);
+  background-color: rgb(212, 149, 212);
 
 }
 
-.active{
+.active {
   background-color: pink;
-  
+
 }
 
 .about-container {
@@ -71,15 +69,17 @@ body {
   padding-top: 5px;
 
 }
-.profile  {
+
+.profile {
   width: 30%;
-           border-radius: 50%;
-           text-align: center;
-            float: left;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
 
 
 
 }
+
 p {
   text-align: justify;
 }
@@ -99,14 +99,15 @@ card {
   width: 90%;
   height: 50%
 }
+
 .resume-text {
- font-style: italic;
+  font-style: italic;
 }
 
 .project-card {
   display: inline-block;
-   border: 6px solid purple;
-   background-color: rgb(221, 176, 240);
+  border: 6px solid purple;
+  background-color: rgb(221, 176, 240);
 }
 
 
@@ -121,13 +122,13 @@ card {
 }
 
 .contact {
-    padding-top: 5px;
+  padding-top: 5px;
   padding: 20px;
   display: flex-wrap;
   border: 4px solid black;
   height: 400px;
   width: 60%;
- 
+
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -163,7 +164,9 @@ textarea {
 }
 
 
-label.email, label.name, label.message {
+label.email,
+label.name,
+label.message {
   padding-right: 20px;
 }
 
@@ -180,13 +183,14 @@ button[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   display: flex;
-   
+
 }
 
 button.submit {
   float: right;
   margin-left: 200px;
 }
+
 /* When moving the mouse over the submit button, add a darker green color */
 button[type=submit]:hover {
   background-color: #45a049;
