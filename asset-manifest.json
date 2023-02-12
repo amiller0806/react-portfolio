@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github.io/react-portfolio/static/css/main.7967de01.css",
+    "main.js": "/github.io/react-portfolio/static/js/main.f891b0d3.js",
+    "static/js/787.a2cb61a6.chunk.js": "/github.io/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ariel-miller.jpeg": "/github.io/react-portfolio/static/media/ariel-miller.7f0f4119f1523c2b6b9b.jpeg",
+    "static/media/concert-catalog.jpg": "/github.io/react-portfolio/static/media/concert-catalog.e119bc5cf4426b9c85ed.jpg",
+    "static/media/resume.png": "/github.io/react-portfolio/static/media/resume.2ef859c23018df48f343.png",
+    "static/media/EmployeeTracker.jpg": "/github.io/react-portfolio/static/media/EmployeeTracker.0defe75988e944cbfd85.jpg",
+    "static/media/ORM-E-Commerce.jpg": "/github.io/react-portfolio/static/media/ORM-E-Commerce.bbd8e9a66085094369c5.jpg",
+    "static/media/NoSQL-18.jpg": "/github.io/react-portfolio/static/media/NoSQL-18.8873f7cec332104756e3.jpg",
+    "static/media/shoppers.jpg": "/github.io/react-portfolio/static/media/shoppers.a4ad80885f05fbf848df.jpg",
+    "static/media/deployedSkin.jpg": "/github.io/react-portfolio/static/media/deployedSkin.2cefa07e442069767f42.jpg",
+    "static/media/AMResume.pdf": "/github.io/react-portfolio/static/media/AMResume.8184e45dfcc59b298b66.pdf",
+    "index.html": "/github.io/react-portfolio/index.html",
+    "main.7967de01.css.map": "/github.io/react-portfolio/static/css/main.7967de01.css.map",
+    "main.f891b0d3.js.map": "/github.io/react-portfolio/static/js/main.f891b0d3.js.map",
+    "787.a2cb61a6.chunk.js.map": "/github.io/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7967de01.css",
+    "static/js/main.f891b0d3.js"
+  ]
+}
