@@ -1,4 +1,7 @@
-import { React, icons } from "react";
+import React from "react";
+import linkedinIcon from "../../assets/images/linkedin.icon.jpg";
+import githubIcon from '../../assets/images/github.icon.jpg';
+
 
 
 function Footer() {
@@ -7,11 +10,11 @@ function Footer() {
   const icons = [
     {
       name: "fab fa-github",
-      link: "https://github.com/amiller0806/",
+      icon: githubIcon
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/",
+      icon: linkedinIcon,
     },
   ];
 
@@ -19,7 +22,7 @@ function Footer() {
     <footer className="flex-row px-1">
       {icons.map((icon) => (
         <a
-          href={icon.link}
+          href={icons.icon}
           key={icon.name}
           target="_blank"
           rel="noopener noreferrer"
